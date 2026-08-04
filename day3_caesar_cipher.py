@@ -50,7 +50,4 @@ if __name__ == "__main__":
 
     cipher = CaesarCipher(shift)
 
-    if mode == "encrypt":
-        print(cipher.encrypt(text))
-    elif mode == "decrypt":
-        print(cipher.decrypt(text))
+    
